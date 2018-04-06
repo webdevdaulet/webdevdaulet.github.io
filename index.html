@@ -16,6 +16,7 @@
 		<title>Даулет Ануарбеков - создание сайтов</title>
 		<!--Шрифты от Google-->
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+		<link rel="stylesheet" href="css/animate.css">
 		<!-- Подключаем наш файл со стилями, который находится в папке css-->
 		<link rel="stylesheet" href="css/style.css"> 
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
@@ -29,17 +30,17 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img class="header-img" src="img/main-Img.png" alt="Монитор">
+					<img class="header-img wow fadeInLeftBig" data-wow-delay="0.1s" src="img/main-Img.png" alt="Монитор">
 				</div>
 				<!-- /.col-7 -->
 				<div class="col-lg-5"> 
-						<p class="header-pretitle">Веб-разработчик</p>
+						<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
 					<!-- Заголовка -->
-						<h1 class="header-title">Даулет Ануарбеков</h1>
+						<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Даулет Ануарбеков</h1>
 					<!-- Создатель сайта)) -->
-						<p class="header-subyitel">Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
+						<p class="header-subyitel wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS <br> Разработка сайтов под ключ</p>
 					<!-- Тема сайта -->
-					<div class="header-button-block">
+					<div class="header-button-block wow fadeInRightBig" data-wow-delay="0.5s">
 						<a href="https://vk.com/daulet0262" class="header-button">Связаться<a>
 						<small>*Это бесплатно</small>
 					</div>
@@ -56,7 +57,7 @@
 	<!-- Портфолио -->
 	<section class="portfolio">
 		<div class="container">
-			<div class="porfolio-block">
+			<div class="porfolio-block wow fadeIn">
 					<h2 class="portfolio-title">Портфолио</h2>
 					<p class="portfolio-subtitle">Мои работы</p>
 				<div class="row">
@@ -96,10 +97,10 @@
 				<div class="col-md-4">
 					<div class="social-block">
 						<p class="footer-text-2">Подпишитесь:</p>
-						<a href="https://www.facebook.com/daulet.anuarbekov"><img src="Social/facebook-logo-button.png" alt="Фейсбук"></a>
-						<a href="https://vk.com/daulet0262"><img src="Social/vk-social-logotype.png" alt="Вконтакте"></a>
-						<a href=""><img src="Social/telegram-symbol.png" alt="Телеграм"></a>
-						<a href="https://www.youtube.com/channel/UCkjOReHF3gl2OFVrJQKfEYQ"><img src="Social/youtube-symbol.png" alt="YouTube"></a>
+						<a href="https://www.facebook.com/daulet.anuarbekov"><img class="wow bounceInDown" data-wow-delay="0.1s" src="Social/facebook-logo-button.png" alt="Фейсбук"></a>
+						<a href="https://vk.com/daulet0262"><img class="wow bounceInDown" data-wow-delay="0.2s" src="Social/vk-social-logotype.png" alt="Вконтакте"></a>
+						<a href=""><img class="wow bounceInDown" data-wow-delay="0.3s" src="Social/telegram-symbol.png" alt="Телеграм"></a>
+						<a href="https://www.youtube.com/channel/UCkjOReHF3gl2OFVrJQKfEYQ"><img class="wow bounceInDown" data-wow-delay="0.4s" src="Social/youtube-symbol.png" alt="YouTube"></a>
 						<!-- Ссылка -->
 					</div>
 				</div>
@@ -117,6 +118,9 @@
 		<!-- /.container -->
 	</footer>
 
-
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>

@@ -39,7 +39,13 @@ header {
 								font-weight: 700;
 									padding: 17px 55px;
 										margin-top: 33px;
+											-webkit-transition: 0.2s;
+												-o-transition: 0.2s;
+													transition: 0.2s;
 }	
+.header-button:hover {
+	box-shadow: none;
+}
 header small {
 	font-size: 12px;
 		display: block;
@@ -134,6 +140,13 @@ footer {
 							background-color: transparent;
 								margin-bottom: 50px;
 									text-decoration: none;
+										-webkit-transition: 0.2s;
+											-o-transition: 0.2s;
+												transition: 0.2s;
+}
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd;
 }
 .footer-cta-block {
 	text-align: center;
